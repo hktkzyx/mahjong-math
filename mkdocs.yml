@@ -12,6 +12,7 @@ nav:
   - Reference: api.md
 theme:
   name: material
+  language: zh
   favicon: images/favicon.png
 extra:
   social:
@@ -22,7 +23,6 @@ extra:
 
 # Plugins
 plugins:
-  - autorefs
   - search:
       lang: en
   - mkdocstrings:
