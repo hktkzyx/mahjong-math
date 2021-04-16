@@ -12,5 +12,5 @@ jobs:
         with:
           python-version: 3.8
       - run: pip install mkdocs-material mkdocstrings
-      - run: PYTHONPATH=mahjong_math/..
+      - run: pip install numpy scipy
       - run: mkdocs gh-deploy
