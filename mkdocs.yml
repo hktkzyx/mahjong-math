@@ -1,0 +1,46 @@
+# Project info
+site_name: Riichi Mahjong
+site_description: The documentation of mahjong_math package
+site_author: hktkzyx
+copyright: Copyright © hktkzyx. All rights reserved.
+repo_url: https://github.com/hktkzyx/mahjong_math
+repo_name: hktkzyx/mahjong_math
+
+# Configuration
+nav:
+  - Home: README.md
+  - Reference: api.md
+theme:
+  name: material
+  favicon: images/favicon.png
+extra:
+  social:
+    - icon: fontawesome/regular/envelope
+      link: mailto:hktkzyx@qq.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/hktkzyx
+
+# Plugins
+plugins:
+  - autorefs
+  - search:
+      lang: en
+  - mkdocstrings:
+      watch:
+        - mahjong_math
+      handlers:
+        python:
+          selection:
+            docstring_style: "restructured-text"
+          rendering:
+            show_root_heading: True
+            show_signature_annotations: True
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
