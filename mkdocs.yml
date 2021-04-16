@@ -32,6 +32,7 @@ plugins:
         python:
           selection:
             docstring_style: "restructured-text"
+            new_path_syntax: true
           rendering:
             show_root_heading: True
             show_signature_annotations: True
