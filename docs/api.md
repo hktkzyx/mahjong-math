@@ -1,3 +1,3 @@
-# Documentation for Module `probability`
+# Reference for Module `probability`
 
 ::: mahjong_math.probability
