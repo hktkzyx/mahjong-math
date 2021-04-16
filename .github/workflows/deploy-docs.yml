@@ -13,4 +13,4 @@ jobs:
           python-version: 3.8
       - run: pip install mkdocs-material mkdocstrings
       - run: pip install numpy scipy
-      - run: mkdocs gh-deploy
+      - run: mkdocs gh-deploy --force
